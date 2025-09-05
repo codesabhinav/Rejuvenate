@@ -21,7 +21,7 @@ function App() {
       <HeroSection />
       <ForHimSection /> 
       <CapsuleSection/>
-      <img src="src/assets/Banner.png" alt="For Her Banner" className="mt-2 w-full h-auto" />
+      <img src="Banner.png" alt="For Her Banner" className="mt-2 w-full h-auto" />
       <ForHerSection />
       <HerCapsuleSection/>
       <OrderSection />

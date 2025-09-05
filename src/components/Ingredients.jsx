@@ -4,19 +4,19 @@ const IngredientsSection = ({
   ingredients = [
     {
       name: "Maca Root Extract",
-      image: "src/assets/Root.png"
+      image: "Root.png"
     },
     {
       name: "Panax Ginseng", 
-      image: "src/assets/Ginseng.png"
+      image: "Ginseng.png"
     },
     {
       name: "Tribulus Terrestris",
-      image: "src/assets/Tribulus.png"
+      image: "Tribulus.png"
     },
     {
       name: "Ashwagandha Extract",
-      image: "src/assets/Ashwagandha.png"
+      image: "Ashwagandha.png"
     }
   ],
   ctaHeading = "READY TO ELEVATE YOUR SEX LIFE TO A HEALTHIER LEVEL?",
@@ -55,7 +55,7 @@ const IngredientsSection = ({
       <div 
         className="relative w-full h-44 overflow-hidden"
         style={{
-          backgroundImage: 'url(src/assets/Strip.png)',
+          backgroundImage: 'url(Strip.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'

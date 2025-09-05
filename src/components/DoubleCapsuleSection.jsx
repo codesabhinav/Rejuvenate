@@ -104,9 +104,9 @@
 import React from "react";
 
 const DoubleCapsuleSection = ({
-  logoSrc = "src/assets/Logo.png",
-  productBoxSrc = "src/assets/Capsules.png",
-  productJarSrc = "src/assets/WomenCapsules.png",
+  logoSrc = "Logo.png",
+  productBoxSrc = "Capsules.png",
+  productJarSrc = "WomenCapsules.png",
   heading = "2 CAPSULES AT A TIME FOR MAXIMUM PERFORMANCE",
   description = "Tried and trusted, Play Tonight capsules are made to restore stamina, power, and confidence – helping men achieve a more satisfying intimate life.",
   benefits = [

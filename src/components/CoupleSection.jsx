@@ -2,8 +2,8 @@ import React from "react";
 
 
 const CoupleSection = ({
-  topPhoto = "src/assets/CoupleFir.png",
-  bottomPhoto = "src/assets/CoupleSec.png",
+  topPhoto = "CoupleFir.png",
+  bottomPhoto = "CoupleSec.png",
   items = [
     {
       title:
