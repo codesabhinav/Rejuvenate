@@ -2,15 +2,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const defaultItems = [
-  { line1: "ISO", line2: "Certified", img: "/ISO.png" },
-  { line1: "FDA", line2: "Approved", img: "/FDA.png" },
-  { line1: "GMP", line2: "Certified", img: "/GMP.png" },
-  { line1: "100%", line2: "Ayurvedic", img: "/Ayurvedic.png" },
-  { line1: "Natural", line2: "Pure Herbs", img: "/Natural.png" },
-  { line1: "Specially", line2: "Formulated", img: "/Specially.png" },
+  { line1: "ISO", line2: "Certified", img: "src/assets/ISO.png" },
+  { line1: "FDA", line2: "Approved", img: "src/assets/FDA.png" },
+  { line1: "GMP", line2: "Certified", img: "src/assets/GMP.png" },
+  { line1: "100%", line2: "Ayurvedic", img: "src/assets/Ayurvedic.png" },
+  { line1: "Natural", line2: "Pure Herbs", img: "src/assets/Natural.png" },
+  { line1: "Specially", line2: "Formulated", img: "src/assets/Specially.png" },
 ];
 
-const HeroSection = ({ items = defaultItems, bgSrc = "/bg.png" }) => {
+const HeroSection = ({ items = defaultItems, bgSrc = "src/assets/bg.png" }) => {
   return (
     <div className="relative w-full flex h-[90vh] bg-[#c2c7c9]">
       {/* Background Image */}
@@ -96,7 +96,7 @@ const HeroSection = ({ items = defaultItems, bgSrc = "/bg.png" }) => {
             FREE SHIPPING
           </h1>
           <div className="flex items-center justify-between">
-            <img src="/Truck.png" alt="Icon" className="w-20 h-20 object-contain font-bold" />
+            <img src="src/assets/Truck.png" alt="Icon" className="w-20 h-20 object-contain font-bold" />
             <p className="text-white text-sm ml-2 font-bold">
               Get free shipping on all orders above $50. Shop Now.
             </p>
@@ -114,7 +114,7 @@ const HeroSection = ({ items = defaultItems, bgSrc = "/bg.png" }) => {
             24X7 SUPPORT
           </h1>
           <div className="flex items-center justify-between">
-            <img src="/HeadPhone.png" alt="Icon" className="w-16 h-16 object-contain" />
+            <img src="src/assets/HeadPhone.png" alt="Icon" className="w-16 h-16 object-contain" />
             <p className="text-white text-sm ml-2 font-bold">
               Our team is always ready to support 24x7.
             </p>
@@ -132,7 +132,7 @@ const HeroSection = ({ items = defaultItems, bgSrc = "/bg.png" }) => {
             100% GENUINE
           </h1>
           <div className="flex items-center justify-between">
-            <img src="/Ok.png" alt="Icon" className="w-16 h-16 object-contain" />
+            <img src="src/assets/Ok.png" alt="Icon" className="w-16 h-16 object-contain" />
             <p className="text-white text-sm ml-2 font-bold">
               Our products are
               100% genuine and
@@ -152,7 +152,7 @@ const HeroSection = ({ items = defaultItems, bgSrc = "/bg.png" }) => {
             EASY RETURN
           </h1>
           <div className="flex items-center justify-between">
-            <img src="/Clock.png" alt="Icon" className="w-16 h-16 object-contain" />
+            <img src="src/assets/Clock.png" alt="Icon" className="w-16 h-16 object-contain" />
             <p className="text-white text-sm ml-2 font-bold">
               Easy return incase
               you don't like it or

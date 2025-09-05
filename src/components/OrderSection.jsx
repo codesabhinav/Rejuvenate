@@ -1,8 +1,8 @@
 import React from "react";
 
 const OrderSection = ({
-  bgSrc = "/BannerSec.png",
-  rightImageSrc = "/OrderFir.png",
+  bgSrc = "src/assets/BannerSec.png",
+  rightImageSrc = "src/assets/OrderFir.png",
 }) => {
   return (
     <section className="relative w-full">

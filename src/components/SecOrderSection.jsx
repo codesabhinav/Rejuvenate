@@ -5,8 +5,8 @@ import React from "react";
 */
 
 const SecOrderSection = ({
-  doctorSrc = "/Doctor.png",
-  boxLeftSrc = "/OrderSec.png",
+  doctorSrc = "src/assets/Doctor.png",
+  boxLeftSrc = "src/assets/OrderSec.png",
   bgColor = "#efeff0",
 }) => {
   return (

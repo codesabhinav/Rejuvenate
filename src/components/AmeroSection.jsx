@@ -1,9 +1,9 @@
 import React from "react";
 
 const AmeroSection = ({
-  logoSrc = "/Amero Logo.png",
-  productBoxSrc = "/WomenCapsules.png",
-  productJarSrc = "/WomenCapsules.png",
+  logoSrc = "src/assets/Amero Logo.png",
+  productBoxSrc = "src/assets/WomenCapsules.png",
+  productJarSrc = "src/assets/WomenCapsules.png",
   heading = "A SMALL DOSE FOR LASTING INTIMATE CONFIDENCE",
   description = "Specially crafted for women, Amero gel helps restore natural tightness, freshness, and youthful confidence – enhancing pleasure and closeness.",
   benefits = [

@@ -4,19 +4,19 @@ const SecIngredient = ({
   ingredients = [
     {
       name: "Quercus infectoria",
-      image: "/Infectoria.png"
+      image: "src/assets/Infectoria.png"
     },
     {
       name: "Phyllanthus emblica", 
-      image: "/Emblica.png"
+      image: "src/assets/Emblica.png"
     },
     {
       name: "Saraca asoca",
-      image: "/Asoca.png"
+      image: "src/assets/Asoca.png"
     },
     {
       name: "Alum",
-      image: "/Alum.png"
+      image: "src/assets/Alum.png"
     }
   ],
   ctaHeading = "READY TO ELEVATE YOUR SEX LIFE TO A HEALTHIER LEVEL?",

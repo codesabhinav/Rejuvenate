@@ -25,7 +25,7 @@ const HerCapsuleSection = () => {
                     {/* Center image placeholder */}
                     <div className="flex justify-center">
                         <div className="w-full rounded  flex items-center justify-center text-gray-500">
-                            <span className="text-sm"><img src="/WomenCapsules.png" alt="Capsule Image" className="bg-transparent" /></span>
+                            <span className="text-sm"><img src="src/assets/WomenCapsules.png" alt="Capsule Image" className="bg-transparent" /></span>
                         </div>
                     </div>
 
