@@ -5,3 +5,24 @@
 
 
 
+/* styles.css */
+.page-hero {
+    /* Desktop / default: gradient (used for md and up) */
+    background: linear-gradient(
+      90deg,
+      rgb(189, 20, 71) 0%,
+      rgba(180, 58, 58, 1) 50%,
+      rgba(143, 130, 130, 1) 61%,
+      rgba(252, 252, 252, 1) 100%
+    );
+    background-color: #ff9696; /* fallback for older browsers */
+  }
+  
+  /* Mobile: below Tailwind 'md' (so max-width: 767px) — show solid color */
+  @media (max-width: 767px) {
+    .page-hero {
+      background-image: none !important;
+      background: rgb(189, 20, 71) !important;
+    }
+  }
+  

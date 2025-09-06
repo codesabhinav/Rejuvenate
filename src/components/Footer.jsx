@@ -7,20 +7,20 @@ const Footer = ({
   terms = "Terms & Conditions | Privacy Policy | Contact Us"
 }) => {
   return (
-    <footer className="w-full bg-black text-white py-6">
-      <div className="max-w-7xl mx-auto">
+    <footer className="w-full bg-black text-white py-4 sm:py-5 md:py-6">
+      <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6">
      
-        <div className="text-center mb-6">
-          <p className="text-[24px] leading-relaxed">
+        <div className="text-center mb-4 sm:mb-5 md:mb-6">
+          <p className="text-sm sm:text-base md:text-lg lg:text-[24px] leading-relaxed mb-2 sm:mb-3">
             {disclaimer}
           </p>
-          <p className="text-[24px] leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg lg:text-[24px] leading-relaxed mb-2 sm:mb-3">
             {healthNotice}
           </p>
-          <p className="text-[24px] leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg lg:text-[24px] leading-relaxed mb-2 sm:mb-3">
             {rights}
           </p>
-          <p className="text-[24px] leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg lg:text-[24px] leading-relaxed">
             {terms}
           </p>
         </div>

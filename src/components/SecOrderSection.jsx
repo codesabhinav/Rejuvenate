@@ -11,39 +11,39 @@ const SecOrderSection = ({
 }) => {
   return (
     <section
-      className="w-full h-[600px]"
+      className="w-full h-auto sm:h-[500px] md:h-[600px] py-14"
       style={{ backgroundColor: bgColor }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 py-10 sm:py-15 md:py-20">
         <div className="">
           {/* Left copy */}
-          <div>
-            <h2 className="text-[40px] font-extrabold leading-tight text-[#424242]">
+          <div className="text-center md:text-left">
+            <h2 className="text-xl sm:text-2xl md:text-[40px] font-extrabold text-[#424242]">
               EXPERIENCE RESTORED INTIMACY &
-              <br /> CONFIDENCE FOR GREATER
-              <br /> SATISFACTION.
+              <br className="hidden sm:block " /> CONFIDENCE FOR GREATER
+              <br className="hidden sm:block " /> SATISFACTION.
             </h2>
 
-            <p className="mt-6 text-[30px] text-[#828488]">
-              Thanks to advanced herbal formulation and rapid action, <br />Play Tonight Capsules & Amero Gel work together to <br />enhance stamina, restore firmness, and help you enjoy <br />longer, more fulfilling intimate moments.
+            <p className="mt-4 sm:mt-5 md:mt-6 text-sm sm:text-lg md:text-[30px] text-[#828488]">
+              Thanks to advanced herbal formulation and rapid action, <br className="hidden sm:block" />Play Tonight Capsules & Amero Gel work together to <br className="hidden sm:block" />enhance stamina, restore firmness, and help you enjoy <br className="hidden sm:block" />longer, more fulfilling intimate moments.
             </p>
           </div>
 
           {/* Right visuals */}
-          <div className="relative min-h-[360px] lg:min-h-[520px]">
+          <div className="relative min-h-[200px] sm:min-h-[300px] md:min-h-[360px] lg:min-h-[520px] mt-8 md:mt-0">
             {/* Doctor */}
             <img
               src={doctorSrc}
               alt="Doctor"
-              className="absolute right-[32px] bottom-[360px] w-52 md:w-72 lg:w-80 h-auto"
+              className="hidden sm:block absolute right-[16px] sm:right-[24px] md:right-[32px] bottom-[200px] sm:bottom-[280px] md:bottom-[360px] w-32 sm:w-40 md:w-52 lg:w-72 xl:w-80 h-auto"
             />
 
             {/* Products bottom right stack */}
-            <div className="absolute right-[250px] top-[-20px] flex items-end gap-4">
+            <div className="absolute right-[50px] sm:right-[150px] md:right-[250px] top-[-10px] sm:top-[-15px] md:top-[-20px] flex items-end gap-2 sm:gap-4">
               <img
                 src={boxLeftSrc}
                 alt="Product Left"
-                className="w-[400px] h-auto drop-shadow"
+                className="w-[200px] sm:w-[300px] md:w-[400px] h-auto drop-shadow"
               />
             </div>
           </div>

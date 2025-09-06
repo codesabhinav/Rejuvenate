@@ -135,24 +135,24 @@ const DoubleCapsuleSection = ({
   return (
     <section className="w-full bg-white">
      
-      <div className="w-full bg-white py-12 md:py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-start">
+      <div className="w-full bg-white py-8 sm:py-10 md:py-12 lg:py-16">
+        <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
             {/* Logo */}
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 mx-auto sm:mx-0">
               <img
                 src={logoSrc}
                 alt="Amero Logo"
-                className="w-56 h-44 object-contain"
+                className="w-40 h-32 sm:w-48 sm:h-36 md:w-56 md:h-44 object-contain"
               />
             </div>
             
             
-            <div className="flex-1">
-              <h2 className="text-[36px] font-semibold text-[#AA1440] leading-tight mb-2">
+            <div className="flex-1 text-center sm:text-left">
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-[36px] font-semibold text-[#AA1440] leading-tight mb-2">
                 {heading}
               </h2>
-              <p className="text-2xl text-gray-600 leading-relaxed max-w-4xl">
+              <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-4xl">
                 {description}
               </p>
             </div>
@@ -164,19 +164,19 @@ const DoubleCapsuleSection = ({
       <div 
         className="w-full bg-[#FFEFF4]"
       >
-        <div className="w-full px-4 sm:px-6 lg:px-8 mb-36">
-          <div className="flex items-center h-[280px]">
+        <div className="w-full px-2 sm:px-4 md:px-6 lg:px-8 mb-20 sm:mb-28 md:mb-36">
+          <div className="flex flex-col lg:flex-row items-center h-auto lg:h-[280px] gap-8 lg:gap-0">
             {/* Left Part */}
-            <div className="flex-1">
-              <div className="grid grid-cols-1 gap-16">
+            <div className="flex-1 w-full lg:w-auto">
+              <div className="grid grid-cols-1 gap-8 sm:gap-12 md:gap-16">
                 {benefits
                   .filter(benefit => benefit.position.startsWith('left'))
                   .map((benefit, index) => (
                     <div key={index} className="text-center lg:text-right">
-                      <h3 className="text-3xl font-semibold text-[#b01a24]">
+                      <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-[#b01a24]">
                         {benefit.title}
                       </h3>
-                      <p className="text-gray-700 text-[24px]">
+                      <p className="text-gray-700 text-sm sm:text-lg md:text-[24px]">
                         {benefit.description}
                       </p>
                     </div>
@@ -185,25 +185,25 @@ const DoubleCapsuleSection = ({
             </div>
 
             {/* Product Image */}
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 order-first lg:order-none">
               <img
                 src={productBoxSrc}
                 alt="Amero Product"
-                className="w-full h-[500px] object-contain mt-[40px] scale-110"
+                className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-full lg:h-[500px] object-contain mt-0 sm:mt-4 md:mt-[40px] scale-100 sm:scale-105 md:scale-110"
               />
             </div>
 
             {/* Right Part*/}
-            <div className="flex-1">
-              <div className="grid grid-cols-1 gap-16">
+            <div className="flex-1 w-full lg:w-auto">
+              <div className="grid grid-cols-1 gap-8 sm:gap-12 md:gap-16">
                 {benefits
                   .filter(benefit => benefit.position.startsWith('right'))
                   .map((benefit, index) => (
                     <div key={index} className="text-center lg:text-left">
-                      <h3 className="text-3xl font-semibold text-[#b01a24] mb-2">
+                      <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-[#b01a24] mb-2">
                         {benefit.title}
                       </h3>
-                      <p className="text-gray-700 text-[17px]">
+                      <p className="text-gray-700 text-sm sm:text-base md:text-[17px]">
                         {benefit.description}
                       </p>
                     </div>
