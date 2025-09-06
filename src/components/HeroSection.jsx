@@ -12,7 +12,7 @@ const defaultItems = [
 
 const HeroSection = ({ items = defaultItems, bgSrc = "bg.png" }) => {
   return (
-    <div className="relative page-hero w-full flex h-[85vh] md:h-[calc(100vh-80px)]  bg-[#aa1541] md:bg-[#c2c7c9] "
+    <div className="relative page-hero w-full flex h-[85vh] md:h-[calc(100vh-280px)] min-h-[600px]  bg-[#aa1541] md:bg-[#c2c7c9] "
     
     // style={{
     //   background: "#ff9696",
